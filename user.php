@@ -2,6 +2,7 @@
 
 function banner(){
     include 'config.php';
+    @system("clear");
     print "$okegreen    ____                  __$yellow    __              \n";
     print "$okegreen   / __ \____ _____  ____/ /$yellow / / /_______  _____\n";
     print "$okegreen  / /_/ / __ `/ __ \/ __  /$yellow / / / ___/ _ \/ ___/\n";
